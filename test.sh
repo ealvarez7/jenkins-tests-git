@@ -1,3 +1,3 @@
 #!/bin/bash
-cat /etc/issue/
-ifconfig
+sh 'cat /etc/issue/'
+sh 'ifconfig'
