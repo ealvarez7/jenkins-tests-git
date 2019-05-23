@@ -1,3 +1,9 @@
-#!/bin/bash
-sh 'cat /etc/issue/'
-sh 'ifconfig'
+pipeline {
+    agent any
+      stages {
+        stage('Build') {
+          steps {
+            sh 'ifconfig'
+          }
+         }
+}
